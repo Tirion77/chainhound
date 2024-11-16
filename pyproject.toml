@@ -1,0 +1,10 @@
+[project]
+name = "chainhound"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "python-dotenv>=0.21.1",
+    "requests>=2.31.0",
+]

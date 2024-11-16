@@ -1,0 +1,12 @@
+{
+    "0x": {
+        "type": "native_transfer",
+        "destination": "tx.to",
+        "value": "tx.value"
+    },
+    "0x12345678": {
+        "type": "erc20_transfer",
+        "destination": "to",
+        "value": "amount"
+    }
+}

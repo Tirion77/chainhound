@@ -1,0 +1,5 @@
+{
+    "ethereum": {
+        "rpc_url": "https://api.etherscan.io"
+    }
+}
