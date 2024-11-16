@@ -39,7 +39,7 @@ def main(args):
     report = analyze_transactions(transactions, args.address, args.token)
     
     # Save report
-    timestamp = int(time.time())
+    timestamp = int(time())
     report_file = f"reports/{args.address}-{timestamp}.txt"
     with open(report_file, "w") as f:
         f.write(report)
